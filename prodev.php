@@ -17,7 +17,7 @@ function calculator($a, $b, $operation) {
             if ($b != 0) {
                 return $a % $b;
             } else {
-                return "Cannot perform modulus operation with zero!";
+                return "Cannot perform modulus operation with zero!";   
             }
         default:
             return "Invalid operation!";
